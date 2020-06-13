@@ -4,7 +4,6 @@ def prime?(int)
   else
     range = (3..int)
     range.to_a
-    bool = false
     if range.any? { |num| int % num == 0}
       return false
     else
