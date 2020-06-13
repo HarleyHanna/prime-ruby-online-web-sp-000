@@ -9,7 +9,7 @@ def prime?(int)
     range = (3..int)
     range.to_a
     bool = false
-    if 
+    if range
     bool
       
   end
