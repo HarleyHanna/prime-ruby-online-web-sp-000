@@ -14,7 +14,10 @@ def prime?(int)
       if int % num == 0
         bool = false
         break
-      elsif
+      elsif int == num
+        bool = true
+        break
+      else
         bool = true
       end
       end
