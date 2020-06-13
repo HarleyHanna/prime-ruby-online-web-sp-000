@@ -11,9 +11,8 @@ def prime?(int)
     bool = false
     while bool == false
       range.each do |num|
-      if int % num == 0
+      if int % num == 0 && int == num
         bool = false
-        break
       elsif int == num
         bool = true
         break
