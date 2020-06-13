@@ -10,8 +10,9 @@ def prime?(int)
     range.to_a
     bool = false
     if range.any? { |num| int % num == 0}
-    bool
-      
+      return false
+    else
+      return true
   end
 end
     
