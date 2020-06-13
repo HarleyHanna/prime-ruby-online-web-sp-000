@@ -6,21 +6,10 @@ def prime?(int)
   elsif int.even? == true && int > 2
     return false
   else
-    range = (3..10000)
+    range = (3..int)
     range.to_a
     bool = false
-    while bool == false
-      range.each do |num|
-      if int % num == 0 && int == num
-        bool = false
-      elsif int == num
-        bool = true
-        break
-      else
-        bool = true
-      end
-      end
-    end
+    if 
     bool
       
   end
