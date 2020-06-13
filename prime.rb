@@ -9,7 +9,7 @@ def prime?(int)
     range = (3..int)
     range.to_a
     bool = false
-    if range.any? { |num| num % 2 == 0
+    if range.any? { |num| int % num == 0}
     bool
       
   end
